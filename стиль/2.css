@@ -1,0 +1,73 @@
+﻿/* шрифты  */
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Exo+2&family=Open+Sans+Condensed:wght@300;700&display=swap');
+/* меню сайта*/
+.menu{text-align: center;}
+a {	padding-right: 8pt;
+	text-decoration: none;
+	font-family: 'Merriweather', serif;
+	color: #cecece; /* Цвет ссылок */
+   }
+a:visited {
+    color: #cecece; /* Цвет посещенных ссылок */
+   }
+a:active {
+color: #cecece; }
+	/* Цвет активных ссылок */
+/* Блоки контента*/
+.blok1, .blok2, .blok3
+{width:100%;
+
+font-size: pt;
+line-height: 2;
+
+}
+.text_content /* отступы в болоке с текстом */
+{line-height: 150%;
+margin-left:3%;
+margin-right:3%;
+text-indent: 5%;
+}
+p{text-indent: 5%;
+margin-left:3%;
+margin-right:3%;
+
+}
+.blok1{background-color:grey;
+
+height:200px;} /* высота блока*/
+.blok2{
+font-family: 'Merriweather', serif; 
+background-color:#FFFAFA;
+margin-top: 20px;
+line-height: 150%;
+}
+.blok3{background-color:grey;
+margin-top: 20px;
+line-height: 150%;
+height:300px;}
+.blok4{}
+h1
+{font-size:20pt;
+font-family: 'Exo 2', sans-serif;
+font-family: 'Open Sans Condensed', sans-serif;
+text-align:center;
+padding-top:15px;
+padding-bottom: 15px;}
+
+
+
+body
+{background-color: #FFE4E1;
+font-family: 'Exo 2', sans-serif;
+font-family: 'Open Sans Condensed', sans-serif;
+
+}
+
+
+table{ font-size: 20px;
+width:70%;
+}
+
